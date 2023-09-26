@@ -75,7 +75,9 @@ void Entity::SetPosition(float x, float y, float z)
 void Entity::SetRotation(float x, float y, float z)
 {
 	rotateVector = glm::vec3(x, y, z);
-	translateMatrix = glm::rotate(translateMatrix, glm::radians(90.0f), glm::vec3(0.0, 0.0, 1.0));
+	translateMatrix = glm::rotate(translateMatrix, glm::radians(x), glm::vec3(1.0, 0.0, 0.0));
+	translateMatrix = glm::rotate(translateMatrix, glm::radians(y), glm::vec3(0.0, 1.0, 0.0));
+	translateMatrix = glm::rotate(translateMatrix, glm::radians(z), glm::vec3(0.0, 0.0, 1.0));
 	
 	UpdateModelMatrix();
 }
@@ -83,9 +85,9 @@ void Entity::SetRotation(float x, float y, float z)
 void Entity::SetScale(float x, float y, float z)
 {
 	scaleVector = glm::vec3(x, y, z); //Va a modificar la mat
-	scaleMatrix[0].x = x;
-	scaleMatrix[1].y = y;
-	scaleMatrix[2].z = z;
+	scaleMatrix[0].x += x;
+	scaleMatrix[1].y += y;
+	scaleMatrix[2].z += z;
 	UpdateModelMatrix();
 }
 
