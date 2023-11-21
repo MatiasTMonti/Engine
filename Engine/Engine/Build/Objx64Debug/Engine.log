@@ -1,0 +1,402 @@
+﻿  Animations.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,21): warning C4251: 'Animation::frames': class 'std::vector<Frame,std::allocator<Frame>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Animation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,7): message : vea la declaración de 'std::vector<Frame,std::allocator<Frame>>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(4,8): warning C4273: 'Frame::Frame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(17,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(12,9): warning C4273: 'Frame::~Frame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(18,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(16,17): warning C4273: 'Frame::GetUVCoords': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(19,11): message : vea la definición anterior de 'GetUVCoords'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(21,12): warning C4273: 'Animation::Animation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(35,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(30,13): warning C4273: 'Animation::~Animation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(36,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(35,17): warning C4273: 'Animation::Update': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(38,7): message : vea la definición anterior de 'Update'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(48,17): warning C4273: 'Animation::AddFrame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(39,7): message : vea la definición anterior de 'AddFrame'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(69,17): warning C4273: 'Animation::AddFrame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(40,7): message : vea la definición anterior de 'AddFrame'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(71,84): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(71,70): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(71,62): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(71,40): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(74,17): warning C4273: 'Animation::SetSpeed': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(41,7): message : vea la definición anterior de 'SetSpeed'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(79,16): warning C4273: 'Animation::GetCurrentFrame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(42,6): message : vea la definición anterior de 'GetCurrentFrame'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.cpp(84,31): warning C4273: 'Animation::GetFrames': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(43,21): message : vea la definición anterior de 'GetFrames'
+  BaseGame.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(19,12): warning C4251: 'Shape::colorVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Shape'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,21): warning C4251: 'Animation::frames': class 'std::vector<Frame,std::allocator<Frame>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Animation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,7): message : vea la declaración de 'std::vector<Frame,std::allocator<Frame>>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.h(22,2): warning C4091: 'static ': se ha omitido a la izquierda de 'TextureImporter' cuando no hay ninguna variable declarada
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(16,12): warning C4251: 'Sprite::colorVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Sprite'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.cpp(4,11): warning C4273: 'BaseGame::BaseGame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.h(25,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.cpp(12,12): warning C4273: 'BaseGame::~BaseGame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.h(26,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.cpp(37,15): warning C4273: 'BaseGame::Run': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.h(27,6): message : vea la definición anterior de 'Run'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.cpp(57,28): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.cpp(75,16): warning C4273: 'BaseGame::IsKeyPressed': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\BaseGame\BaseGame.h(33,7): message : vea la definición anterior de 'IsKeyPressed'
+  CollisionManager.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.cpp(6,19): warning C4273: 'CollisionManager::CollisionManager': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.h(15,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.cpp(11,20): warning C4273: 'CollisionManager::~CollisionManager': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.h(16,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.cpp(19,24): warning C4273: 'CollisionManager::CollisionUpdate': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.h(18,14): message : vea la definición anterior de 'CollisionUpdate'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.cpp(28,24): warning C4273: 'CollisionManager::CheckCollision': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.h(19,14): message : vea la definición anterior de 'CheckCollision'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.cpp(46,24): warning C4273: 'CollisionManager::Overlap': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\CollisionManager\CollisionManager.h(20,14): message : vea la definición anterior de 'Overlap'
+  Entity.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(26,9): warning C4273: 'Entity::Entity': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(28,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(45,10): warning C4273: 'Entity::~Entity': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(29,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(54,14): warning C4273: 'Entity::UpdateModelMatrix': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(31,7): message : vea la definición anterior de 'UpdateModelMatrix'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(60,19): warning C4273: 'Entity::GetModelMatrix': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(32,12): message : vea la definición anterior de 'GetModelMatrix'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(65,14): warning C4273: 'Entity::SetPosition': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(34,7): message : vea la definición anterior de 'SetPosition'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(75,14): warning C4273: 'Entity::SetRotation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(35,7): message : vea la definición anterior de 'SetRotation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(83,14): warning C4273: 'Entity::SetRotationX': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(36,7): message : vea la definición anterior de 'SetRotationX'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(90,14): warning C4273: 'Entity::SetRotationY': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(37,7): message : vea la definición anterior de 'SetRotationY'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(97,14): warning C4273: 'Entity::SetRotationZ': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(38,7): message : vea la definición anterior de 'SetRotationZ'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(104,14): warning C4273: 'Entity::SetScale': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(39,7): message : vea la definición anterior de 'SetScale'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(113,19): warning C4273: 'Entity::GetPosition': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(41,12): message : vea la definición anterior de 'GetPosition'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(118,19): warning C4273: 'Entity::GetRotation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(42,12): message : vea la definición anterior de 'GetRotation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(123,19): warning C4273: 'Entity::GetScale': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(43,12): message : vea la definición anterior de 'GetScale'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(128,14): warning C4273: 'Entity::Translate': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(45,7): message : vea la definición anterior de 'Translate'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(135,14): warning C4273: 'Entity::Rotate': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(46,7): message : vea la definición anterior de 'Rotate'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.cpp(143,14): warning C4273: 'Entity::Scale': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(47,7): message : vea la definición anterior de 'Scale'
+  Entity2D.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.cpp(3,11): warning C4273: 'Entity2D::Entity2D': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.h(19,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.cpp(11,12): warning C4273: 'Entity2D::~Entity2D': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.h(20,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.cpp(20,16): warning C4273: 'Entity2D::SetCollider': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.h(25,7): message : vea la definición anterior de 'SetCollider'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.cpp(25,16): warning C4273: 'Entity2D::SetMoveable': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.h(26,7): message : vea la definición anterior de 'SetMoveable'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.cpp(30,16): warning C4273: 'Entity2D::IsMoveable': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.h(27,7): message : vea la definición anterior de 'IsMoveable'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.cpp(35,16): warning C4273: 'Entity2D::HasCollider': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity2D\Entity2D.h(28,7): message : vea la definición anterior de 'HasCollider'
+  Input.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Input\Input.cpp(3,8): warning C4273: 'Input::Input': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Input\Input.h(19,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Input\Input.cpp(8,9): warning C4273: 'Input::~Input': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Input\Input.h(20,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Input\Input.cpp(13,13): warning C4273: 'Input::IsKeyPressed': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Input\Input.h(22,14): message : vea la definición anterior de 'IsKeyPressed'
+  Material.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(7,11): warning C4273: 'Material::Material': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(24,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(11,12): warning C4273: 'Material::~Material': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(25,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(15,31): warning C4273: 'Material::ParseShader': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(27,22): message : vea la definición anterior de 'ParseShader'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(53,24): warning C4273: 'Material::CompilerShader': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(28,15): message : vea la definición anterior de 'CompilerShader'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(80,16): warning C4273: 'Material::CreateMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(29,7): message : vea la definición anterior de 'CreateMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(94,16): warning C4273: 'Material::UseMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(30,7): message : vea la definición anterior de 'UseMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(99,16): warning C4273: 'Material::ModifyMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(31,7): message : vea la definición anterior de 'ModifyMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.cpp(113,16): warning C4273: 'Material::DeleteMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Material\Material.h(32,7): message : vea la definición anterior de 'DeleteMaterial'
+  Render.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(6,9): warning C4273: 'Render::Render': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(22,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(14,10): warning C4273: 'Render::~Render': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(23,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(23,14): warning C4273: 'Render::ClearScreen': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(25,7): message : vea la definición anterior de 'ClearScreen'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(28,14): warning C4273: 'Render::ClearScreenWithColor': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(26,7): message : vea la definición anterior de 'ClearScreenWithColor'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(34,14): warning C4273: 'Render::SwapBuffers': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(27,7): message : vea la definición anterior de 'SwapBuffers'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(39,13): warning C4273: 'Render::InitGLEW': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(29,6): message : vea la definición anterior de 'InitGLEW'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(47,14): warning C4273: 'Render::InitMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(30,7): message : vea la definición anterior de 'InitMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(56,14): warning C4273: 'Render::CreateBuffers': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(32,7): message : vea la definición anterior de 'CreateBuffers'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(63,14): warning C4273: 'Render::BindBuffers': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(33,7): message : vea la definición anterior de 'BindBuffers'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(76,14): warning C4273: 'Render::UnBindVertex': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(34,7): message : vea la definición anterior de 'UnBindVertex'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(83,14): warning C4273: 'Render::EnableVertexAttributes': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(35,7): message : vea la definición anterior de 'EnableVertexAttributes'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(89,14): warning C4273: 'Render::BindTexture': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(37,7): message : vea la definición anterior de 'BindTexture'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(94,14): warning C4273: 'Render::DrawWithoutIndexBuffer': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(39,7): message : vea la definición anterior de 'DrawWithoutIndexBuffer'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(99,14): warning C4273: 'Render::DrawWithIndexBuffer': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(40,7): message : vea la definición anterior de 'DrawWithIndexBuffer'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(107,19): warning C4273: 'Render::GetViewMatrix': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(42,12): message : vea la definición anterior de 'GetViewMatrix'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(112,19): warning C4273: 'Render::GetProjectionMatrix': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(43,12): message : vea la definición anterior de 'GetProjectionMatrix'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(117,19): warning C4273: 'Render::GetMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(44,12): message : vea la definición anterior de 'GetMaterial'
+  Shape.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(19,12): warning C4251: 'Shape::colorVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Shape'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(3,8): warning C4273: 'Shape::Shape': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(22,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(8,9): warning C4273: 'Shape::~Shape': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(23,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(14,13): warning C4273: 'Shape::SetColor': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(25,7): message : vea la definición anterior de 'SetColor'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(19,18): warning C4273: 'Shape::GetColor': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(26,12): message : vea la definición anterior de 'GetColor'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(24,13): warning C4273: 'Shape::AttachMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(28,7): message : vea la definición anterior de 'AttachMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(30,13): warning C4273: 'Shape::DetachMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(29,7): message : vea la definición anterior de 'DetachMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(35,13): warning C4273: 'Shape::Draw': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(34,7): message : vea la definición anterior de 'Draw'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(41,13): warning C4273: 'Shape::CreateTriangle': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(32,7): message : vea la definición anterior de 'CreateTriangle'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.cpp(62,13): warning C4273: 'Shape::CreateSquare': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(31,7): message : vea la definición anterior de 'CreateSquare'
+  Sprite.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,21): warning C4251: 'Animation::frames': class 'std::vector<Frame,std::allocator<Frame>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Animation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,7): message : vea la declaración de 'std::vector<Frame,std::allocator<Frame>>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.h(22,2): warning C4091: 'static ': se ha omitido a la izquierda de 'TextureImporter' cuando no hay ninguna variable declarada
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(16,12): warning C4251: 'Sprite::colorVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Sprite'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(3,9): warning C4273: 'Sprite::Sprite': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(21,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(9,9): warning C4273: 'Sprite::Sprite': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(22,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(15,27): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(16,28): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(41,10): warning C4273: 'Sprite::~Sprite': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(23,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(52,14): warning C4273: 'Sprite::AttachMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(28,7): message : vea la definición anterior de 'AttachMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(58,14): warning C4273: 'Sprite::DetachMaterial': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(29,7): message : vea la definición anterior de 'DetachMaterial'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(63,14): warning C4273: 'Sprite::Draw': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(30,7): message : vea la definición anterior de 'Draw'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(70,14): warning C4273: 'Sprite::CreateAnimation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(32,7): message : vea la definición anterior de 'CreateAnimation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(76,14): warning C4273: 'Sprite::AddFrames': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(33,7): message : vea la definición anterior de 'AddFrames'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(82,96): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(82,82): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(82,74): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(82,52): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(82,36): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(82,33): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(87,14): warning C4273: 'Sprite::AddFrame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(34,7): message : vea la definición anterior de 'AddFrame'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(89,98): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(89,84): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(89,76): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(89,54): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(92,14): warning C4273: 'Sprite::AddFrame': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(35,7): message : vea la definición anterior de 'AddFrame'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(97,14): warning C4273: 'Sprite::UpdateAnimation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(38,7): message : vea la definición anterior de 'UpdateAnimation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(106,14): warning C4273: 'Sprite::UpdateAnimation': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(39,7): message : vea la definición anterior de 'UpdateAnimation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(112,14): warning C4273: 'Sprite::LoadTexture': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(41,7): message : vea la definición anterior de 'LoadTexture'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(116,27): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(117,28): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(142,14): warning C4273: 'Sprite::SetUVCoords': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(36,7): message : vea la definición anterior de 'SetUVCoords'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(171,14): warning C4273: 'Sprite::SetTextureCoords': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(37,7): message : vea la definición anterior de 'SetTextureCoords'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(210,14): warning C4273: 'Sprite::SetColor': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(43,7): message : vea la definición anterior de 'SetColor'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.cpp(215,19): warning C4273: 'Sprite::GetColor': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(44,12): message : vea la definición anterior de 'GetColor'
+  TextureImporter.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.h(22,2): warning C4091: 'static ': se ha omitido a la izquierda de 'TextureImporter' cuando no hay ninguna variable declarada
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.cpp(5,26): warning C4273: 'TextureImporter::LoadTexture': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.h(21,17): message : vea la definición anterior de 'LoadTexture'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.cpp(55,29): warning C4838: la conversión de 'int' en 'float' requiere una conversión de restricción
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.cpp(55,29): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.cpp(55,43): warning C4838: la conversión de 'int' en 'float' requiere una conversión de restricción
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.cpp(55,43): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  Timer.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(3,14): warning C4273: 'deltaTime': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.h(15,15): message : vea la definición anterior de 'private: static float Timer::deltaTime'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(3,26): error C2491: 'Timer::deltaTime': definición de miembro de datos estático dllimport no permitida
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(4,15): warning C4273: 'lastDeltaTime': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.h(16,16): message : vea la definición anterior de 'private: static double Timer::lastDeltaTime'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(4,31): error C2491: 'Timer::lastDeltaTime': definición de miembro de datos estático dllimport no permitida
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(6,8): warning C4273: 'Timer::Timer': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.h(10,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(11,9): warning C4273: 'Timer::~Timer': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.h(11,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(15,13): warning C4273: 'Timer::Update': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.h(12,14): message : vea la definición anterior de 'Update'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(17,26): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.cpp(21,14): warning C4273: 'Timer::GetDeltaTime': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Timer\Timer.h(13,15): message : vea la definición anterior de 'GetDeltaTime'
+  glm.cpp
+  Window.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(3,9): warning C4273: 'Window::Window': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(17,2): message : vea la definición anterior de '{ctor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(10,10): warning C4273: 'Window::~Window': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(18,3): message : vea la definición anterior de '{dtor}'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(15,9): warning C4150: eliminación de puntero a tipo 'GLFWwindow' incompleto; no se ha llamado a un destructor
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Dependecies\GLFW\include\GLFW\glfw3.h(1185,16): message : vea la declaración de 'GLFWwindow'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(19,13): warning C4273: 'Window::InitLibrary': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(19,6): message : vea la definición anterior de 'InitLibrary'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(24,13): warning C4273: 'Window::CreateWindow': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(20,6): message : vea la definición anterior de 'CreateWindow'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(37,14): warning C4273: 'Window::MakeCurrentContext': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(21,7): message : vea la definición anterior de 'MakeCurrentContext'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(42,14): warning C4273: 'Window::WindowShouldClose': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(22,7): message : vea la definición anterior de 'WindowShouldClose'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(47,14): warning C4273: 'Window::PollEvents': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(23,7): message : vea la definición anterior de 'PollEvents'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(52,14): warning C4273: 'Window::CloseWindow': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(24,7): message : vea la definición anterior de 'CloseWindow'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(57,21): warning C4273: 'Window::GetWindow': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(26,14): message : vea la definición anterior de 'GetWindow'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(62,13): warning C4273: 'Window::GetWidth': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(28,6): message : vea la definición anterior de 'GetWidth'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(67,13): warning C4273: 'Window::GetHeight': vinculación de DLL incoherente
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.h(29,6): message : vea la definición anterior de 'GetHeight'
+  Generando código...
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Window\Window.cpp(22): warning C4715: 'Window::InitLibrary': no todas las rutas de acceso de control devuelven un valor
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.cpp(45): warning C4715: 'Render::InitGLEW': no todas las rutas de acceso de control devuelven un valor

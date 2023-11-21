@@ -1,0 +1,45 @@
+﻿  C:\Users\Aula 2\Documents\GitHub\Engine\Engine\lib\Engine.dll
+  1 archivo(s) copiado(s)
+  Game.cpp
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(18,12): warning C4251: 'Render::view': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Renderer\Render.h(19,12): warning C4251: 'Render::projection': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Render'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(17,12): warning C4251: 'Entity::model': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(19,12): warning C4251: 'Entity::translateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(20,12): warning C4251: 'Entity::rotateMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(21,12): warning C4251: 'Entity::scaleMatrix': struct 'glm::mat<4,4,glm::f32,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(520,10): message : vea la declaración de 'glm::mat<4,4,glm::f32,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(23,12): warning C4251: 'Entity::translateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(24,12): warning C4251: 'Entity::rotateVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Entity\Entity.h(25,12): warning C4251: 'Entity::scaleVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Entity'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Shape\Shape.h(19,12): warning C4251: 'Shape::colorVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Shape'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,21): warning C4251: 'Animation::frames': class 'std::vector<Frame,std::allocator<Frame>>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Animation'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Animations\Animations.h(32,7): message : vea la declaración de 'std::vector<Frame,std::allocator<Frame>>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\TextureImporter\TextureImporter.h(22,2): warning C4091: 'static ': se ha omitido a la izquierda de 'TextureImporter' cuando no hay ninguna variable declarada
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\src\Sprite\Sprite.h(16,12): warning C4251: 'Sprite::colorVector': struct 'glm::vec<3,float,glm::packed_highp>' necesita tener una interfaz DLL para que la utilicen los clientes de class 'Sprite'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Engine\vendor\glm\fwd.hpp(420,10): message : vea la declaración de 'glm::vec<3,float,glm::packed_highp>'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(72,33): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(72,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(73,33): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(73,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(74,33): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(74,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(75,33): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(75,47): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Game\Game.cpp(81,24): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Generando código
+  1 of 73 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+  Game.vcxproj -> C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\Build\BinWin32Release\Game.exe
+  C:\Users\Aula 2\Documents\GitHub\Engine\Engine\Game\lib\Engine.dll
+  1 archivo(s) copiado(s)
