@@ -8,6 +8,13 @@ private:
 	Sprite* player;
 	Sprite* grass;
 	Sprite* sign;
+	Sprite* pikachu;
+	Sprite* pikachuImage;
+	Sprite* pikachuText;
+	Animation* pikachuImageIdle;
+	Animation* PikachuTextIdle;
+	Animation* pikachuIdle;
+	Animation* pikachuMove;
 	Animation* signIdle;
 	Animation* idle;
 	Animation* up;
